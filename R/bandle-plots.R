@@ -703,8 +703,9 @@ plotTable <- function(params,
 ##' iteration for each chain
 ##'
 ##' @title Number of outliers at each iteration of MCMC
-##' @param x Object of class `bandleParams`
-##' @return A `list` of length `length(x)`.
+##' @param params Object of class `bandleParams`
+##' @return A named list with elements `cond1` and `cond2`, each containing
+##' one MCMC object per chain.
 ##' @md
 bandle_get_outliers <- function(params) {
   ## check for validity

@@ -1,3 +1,6 @@
+# bandle 1.17.1
+- minor bug fixes
+
 # bandle 1.11
 
 ## Changes in version bandle 1.11.1

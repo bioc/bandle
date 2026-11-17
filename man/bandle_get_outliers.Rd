@@ -7,10 +7,11 @@
 bandle_get_outliers(params)
 }
 \arguments{
-\item{x}{Object of class \code{bandleParams}}
+\item{params}{Object of class \code{bandleParams}}
 }
 \value{
-A \code{list} of length \code{length(x)}.
+A named list with elements \code{cond1} and \code{cond2}, each containing
+one MCMC object per chain.
 }
 \description{
 Helper function to get the number of outliers at each MCMC

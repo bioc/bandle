@@ -141,7 +141,7 @@ bandle <- function(objectCond1,
              "Use fitGPmaternPC() to generate these parameters.")
       }
       if (!maternCov) {
-        stop("Fixed hyperparameter optimization currently only supports Matérn covariance. ",
+        stop("Fixed hyperparameter optimization currently only supports Matern covariance. ",
              "Set maternCov=TRUE or use hyperLearn='MH' or 'LBFGS'.")
       }
     }
